@@ -1,6 +1,3 @@
-#controller
-
-
 require 'models/task_manager'
 
 class TaskManagerApp < Sinatra::Base

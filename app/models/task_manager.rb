@@ -1,4 +1,3 @@
-#model
 require 'yaml/store'
 require_relative 'task'
 
