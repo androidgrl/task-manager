@@ -1,0 +1,1 @@
+This is from Jumpstart Labs beginning Sinatra tutorial.  It is a Task Manager app, in which you can enter a new task and its description into a form and it will display that in a webpage.  This uses a controller, view, and model file format, as well as a YAML database.
