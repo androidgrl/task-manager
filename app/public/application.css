@@ -1,0 +1,65 @@
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: justify;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+a:hover {
+    font-style: italic;
+    font-weight: bold;
+    color: magenta;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    margin-left: 10%;
+}
+
+.task-list {
+    font-family: cursive;
+}
+
+footer {
+    margin-left: 18%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    text-align: center;
+}
+
+p, nav, h1, footer {
+    margin: 1% 20% 1% 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

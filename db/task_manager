@@ -3,4 +3,16 @@ tasks:
 - id: 1
   title: Post Task Manager
   description: Post first version of task manager
-total: 1
+- id: 2
+  title: Have Fun
+  description: Watch a movie, bake cookies, take a walk.
+- id: 3
+  title: Ipsum
+  description: Cupcake, doughnut, cookies.
+- id: 4
+  title: Build Treehouse
+  description: "Buy wood, nails, paint.\r\nBuild it."
+- id: 5
+  title: Order Pizza
+  description: "Call pizza guy.\r\nGive delivery guy a tip.\r\nEat pizza."
+total: 5
