@@ -47,7 +47,10 @@ p, nav, h1, footer {
     margin: 1% 20% 1% 20%;
 }
 
-
+img {
+    margin-left: 30%;
+    width: 25%;
+}
 
 
 
