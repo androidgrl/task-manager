@@ -12,10 +12,11 @@ gem 'capybara'
 
 gem 'launchy'
 
-#gem 'sequel'
-#gem 'sqlite3'
+gem 'sequel'
 
+gem 'sqlite3'
 
+gem 'byebug'
 
 
 

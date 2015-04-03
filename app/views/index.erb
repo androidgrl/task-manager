@@ -7,7 +7,7 @@
 
 <h1>All Tasks</h1>
 
-
+<div id="list">
 <% @tasks.each do |task| %>
   <h3>(<%= task.id %>) <a href="/tasks/<%= task.id %>"><%= task.title %></a></h3>
   <a href="/tasks/<%= task.id %>/edit">Edit</a>
@@ -16,6 +16,6 @@
     <input type="submit" value="delete"/>
   </form>
 <% end %>
-
+</div>
 
 

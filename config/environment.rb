@@ -1,8 +1,9 @@
-
+#in config.ru we required env file
 require 'bundler'
 Bundler.require
 
 # set the pathname for the root of the app
+# in ruby std lib, you have to require
 require 'pathname'
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 

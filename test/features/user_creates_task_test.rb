@@ -15,7 +15,8 @@ class UserCreatesTaskTest < FeatureTest
     #need button to have value
     #then i will see the new task title and description
     assert_equal '/tasks', current_path
-    assert page.has_content?("Make cookies")
+    within("#list") do
+      assert page.has_content?("Make cookies")
+    end
   end
-
 end

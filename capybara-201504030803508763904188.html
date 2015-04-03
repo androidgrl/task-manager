@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/application.css">
+    <title>My Sinatra Application</title>
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+  <ul>
+    <li><a href="/">Home</a></li>
+    <li><a href="/tasks/new">New Task</a></li>
+  </ul>
+</nav>
+
+<h1>All Tasks</h1>
+
+<div id="list">
+  <h3>(373) <a href="/tasks/373">Learn</a></h3>
+  <a href="/tasks/373/edit">Edit</a>
+  <form action="/tasks/373" method="POST">
+    <input type="hidden" name="_method" value="DELETE">
+    <input type="submit" value="delete"/>
+  </form>
+</div>
+
+
+
+    </div>
+    <footer>
+      <a href="https://github.com/androidgrl/task-manager">Jamie's Github Repository</a>
+    </footer>
+  </body>
+</html>
+
