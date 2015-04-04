@@ -1,19 +1,13 @@
-#in config.ru we required env file
 require 'bundler'
 Bundler.require
 
-# set the pathname for the root of the app
-# in ruby std lib, you have to require
 require 'pathname'
 APP_ROOT = Pathname.new(File.expand_path('../../', __FILE__))
 
-# require the controller(s)
 Dir[APP_ROOT.join('app', 'controllers', '*.rb')].each { |file| require file }
 
-# require the model(s)
 Dir[APP_ROOT.join('app', 'models', '*.rb')].each { |file| require file }
 
-# configure TaskManagerApp settings
 class TaskManagerApp < Sinatra::Base
   set :method_override, true
   set :root, APP_ROOT.to_path
