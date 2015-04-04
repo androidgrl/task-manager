@@ -42,19 +42,3 @@ class TaskManagerApp < Sinatra::Base
   end
 end
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

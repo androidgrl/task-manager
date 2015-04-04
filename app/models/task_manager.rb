@@ -45,4 +45,3 @@ class TaskManager
     database.from(:tasks)
   end
 end
-
