@@ -8,5 +8,4 @@ class Task
     @title = data[:title]
     @description = data[:description]
   end
-#change the test to use symbols
 end

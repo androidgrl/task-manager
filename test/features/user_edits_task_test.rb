@@ -9,7 +9,7 @@ class UserEditsTaskTest < FeatureTest
     #and i click on the edit button
     click_link_or_button("Edit")
     #and i enter a title with --
-
+    save_and_open_page
     fill_in("task[title]", with: "Learn Pry")
     #and i enter description with --
     fill_in("task[description]", with: "now")

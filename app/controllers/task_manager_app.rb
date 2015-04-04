@@ -1,4 +1,3 @@
-
 class TaskManagerApp < Sinatra::Base
   get '/' do
     erb :dashboard
@@ -36,7 +35,6 @@ class TaskManagerApp < Sinatra::Base
     TaskManager.update(id.to_i, params[:task])
     redirect "/tasks/#{id}"
   end
-
 
   delete '/tasks/:id' do |id|
     TaskManager.destroy(id.to_i)
