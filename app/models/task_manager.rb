@@ -1,5 +1,3 @@
-require 'byebug'
-
 class TaskManager
 
   def self.database
@@ -20,7 +18,7 @@ class TaskManager
       Task.new(raw_task)
     end
   end
-
+#database?? 
   def self.find(id)
     raw_task = dataset.from(:tasks).where(id: id).first
     Task.new(raw_task)

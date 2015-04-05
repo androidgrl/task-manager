@@ -1,7 +1,6 @@
 require_relative '../test_helper'
 
 class TaskTest < Minitest::Test
-#change to symbols
  def test_task_is_assigned_correct_attributes
     task = Task.new({ title: "a title",
                       description: "a description",
@@ -10,6 +9,4 @@ class TaskTest < Minitest::Test
     assert_equal "a description", task.description
     assert_equal 1, task.id
   end
-
-
 end

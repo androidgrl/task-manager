@@ -44,7 +44,6 @@ class TaskManagerTest < Minitest::Test
     last_task = TaskManager.all.last
     task = TaskManager.find(last_task.id)
     assert_equal "My task1", task.title
-
   end
 end
 
